@@ -8,3 +8,4 @@ class AppDelegate
     true
   end
 end
+
