@@ -129,7 +129,8 @@ class NextEventViewController < UIViewController
   end  
 
   def sign_in( button )
-    p "sign in button pressed #{button}"
+    signin_controller = SignInViewcontroller.alloc.initWithNibName('RBMViewController_iPhone', bundle:nil)
+    presentModalViewController(signin_controller, animated:true)
   end
      
 end
